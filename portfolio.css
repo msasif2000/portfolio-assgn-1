@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(rgb(2, 61, 78), rgb(137, 195, 212));
+
+}
+
+/* Navbar Design */
+a {
+    color: blanchedalmond;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nvbar {
+    background: linear-gradient(#043236, rgb(6, 142, 184));
+    padding: 10px 10px;
+    gap: 80px;
+    text-align: center;
+    display: flex;
+}
+
+.nvbar h1 {
+    font-family: 'Lobster', cursive;
+    color: blanchedalmond;
+    display: flex;
+    align-items: right;
+    margin: 90px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nav-logo img {
+    height: 100px;
+    width: 120px;
+    text-align: left;
+    margin-top: 60px;
+    border-radius: 10px;
+
+}
+
+.nvbar-menu {
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: end;
+    margin-top: 100px;
+
+}
+
+.nvbar-menu a {
+    /* background:linear-gradient(rgb(6, 142, 184),rgb(88, 196, 230)) ; */
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 0px;
+}
+
+.nvbar-menu a:hover {
+    background: linear-gradient(rgb(6, 142, 184), rgb(88, 196, 230));
+}
+
+/* profile design */
+.prof-info h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    color: #13065e;
+}
+
+.prof-info p {
+    color: rgb(240, 236, 253);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 90%;
+
+}
+
+.my-img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    ;
+    display: block;
+
+    font-size: 18px;
+    color: rgb(241, 233, 233);
+    background: linear-gradient(rgb(6, 142, 184), rgb(88, 196, 230));
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Card design */
+.title-desc {
+    font-size: 20px;
+    display: block;
+    border-radius: 10px;
+    background-color: rgb(234, 245, 241);
+    margin: 30px 10px;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.crd {
+    margin: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    background: linear-gradient(rgb(6, 142, 184), rgb(94, 177, 202));
+}
+
+.skill {
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgb(15, 36, 131);
+}
+
+.c-image {
+    margin-top: 5px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    align-content: center;
+    margin-left: 5px;
+
+}
+
+.cd-body {
+    padding: 5px;
+}
+
+.cd-body .cd-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.cd-desc {
+    text-align: justify;
+    color: rgb(5, 19, 26);
+    border-radius: 10px;
+    background: linear-gradient(rgb(76, 184, 206), rgb(59, 171, 223));
+}
+
+.skill:hover {
+    box-shadow: 6px 12px 10px wheat;
+}
+
+
+
+/* My Work */
+.fdb {
+    background: linear-gradient(#170f42, #4835b4);
+    padding: 7% 7%;
+    border-radius: 40px;
+}
+
+.hr-style {
+    border: 2px dashed white;
+    border-bottom: none;
+    width: 40px;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: aquamarine;
+    border-bottom: 3px dotted rgb(112, 179, 25);
+}
+
+.carousel-item {
+    padding: 5% 10%;
+    text-align: center;
+    font-style: italic;
+}
+
+.feed-img {
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}
+
+.see {
+    background: gray;
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.see:hover {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    ;
+
+    font-size: 18px;
+    color: rgb(241, 233, 233);
+    background: linear-gradient(rgb(6, 142, 184), rgb(88, 196, 230));
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/* Contact */
+.cnt {
+    display: flex;
+    margin: 30px;
+}
+
+.btn-icon {
+    border: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.btn-icon:hover {
+    background: linear-gradient(#170f42, #4835b4);
+}
+
+
+
+.soc-icon {
+    padding: 10px;
+    text-align: left;
+    margin: 30px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: red;
+}
+
+.fa-solid {
+    font-size: 20px;
+    color: red;
+}
+
+
+.btn1.btn2 {
+    color: #fff;
+    display: inline-block;
+    background: linear-gradient(#170f42, #4835b4);
+}
+
+.btn1.btn2:hover {
+    background: gray;
+}
+
+.contactbox form {
+    align-items: left;
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: rgb(240, 237, 237);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(34, 103, 150);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+form .btn2 {
+    padding: 10px 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
